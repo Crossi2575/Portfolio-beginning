@@ -50,7 +50,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
   }
   .hero-image {
-    background-image: url("/img/image 7.png");
+    background-image: url("../img/heroimage.png");
     height: 50%;
     background-position: bottom;
     background-repeat: no-repeat;
