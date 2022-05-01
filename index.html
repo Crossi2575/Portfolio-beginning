@@ -1,85 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>    
-        <div class="header">
-        <a href="#default" class="logo">Chase Rossi</a>
-        <div class="header-Right">
-            <a href="#resume">Resume</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-            <a class="active" href="#home">Home</a>
-        </div>
-    </div>
-    </header>
-    <div class="hero-image">
-        <div class="hero-text">
-          <p>Nice to meet you, I'm Chase.
-            I'm a (insert changing text)
-            working towards making
-            ground breaking design improvements!</p>
-            <div class="hero-subtext">
-                <ul>
-                    <li>Ui Designer</li>
-                    <li>Barista</li>
-                    <li>South Florida Area</li>
-                </ul>
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Our Custom Template</title>
+  </head>
+  <body>
+
+    <!-- Navigation bar -->
+    <nav class="customNav navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="./images/Sharkfin-removebg-preview.png">Chase Rossi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About me!</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              More information
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Contact me!</a>
+              <a class="dropdown-item" href="#">Social Media</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          <button>About Me!</button>
-        </div>
-<div class="workArea" id="projects">
-    <div class="classes">
-        <div class="classes-text">
-            <div class="class-title">FamiLab</div>
-            <div class="spacing-x"></div>
-            <div class="work-time">March 20th-April 2nd</div>
-            <div class="spacing-soon">
-                <div class="class-image">
-                    <a href="#">
-                        <img src="../Portfolio-beginning/img/familab v2.png" alt="famiLab">
-                    </a>
-                </div>
-            </div>
-        </div>
+          </li>
+          <li>
+            <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End navigation bar -->
+
+    <!-- Jumbotron -->
+    <div class="rockBackground jumbotron">
+      <div class="jumboCopy"><h1 class="display-4">Nice to meet you, Im Chase!</h1>
+        <p class="lead">Im new to the UX/UI designing world and working towards learning how to make some amazing designs!</p>
+        <hr class="my-4">
+        <p>Id love to learn and work with you to make some awesome works!</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Contact me!</a>
+      </div>
     </div>
-    <div class="spacing-90"></div>
-    <div class="classes">
-        <div class="classes-text">
-            <div class="class-title">Utah State Tax Commission</div>
-            <div class="spacing-x"></div>
-            <div class="work-time">February 2nd-February 26th</div>
-            <div class="spacing-soon">
-                <div class="class-image">
-                    <a href="#">
-                        <img src="../Portfolio-beginning/img/Group 143.png" alt="utahTax">
-                    </a>
-                </div>
+    <!-- End jumbotron -->
+
+    <!-- Cards -->
+    <div class="sectionArea bg-light">
+      <div class="container">
+        <h2 class="sectionHeading">Some projects I've worked on!</h2>
+        <div class="showsNear row">
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img src="./images/familab v2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FamiLab.org</h5>
+                <p class="card-text">A website redesign that fixed an out of date website to be a bit more modern while keeping a similar design. A nonprofit website redesign</p>
+                <a href="#" class="btn btn-primary">Learn More!</a>
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="spacing-90"></div>
-    <div class="classes">
-        <div class="classes-text">
-            <div class="class-title">GamerScoops</div>
-            <div class="spacing-x"></div>
-            <div class="work-time">January 4th-January 24th</div>
-            <div class="spacing-soon">
-                <div class="class-image">
-                    <a href="#">
-                        <img src="../Portfolio-beginning/img/GamerScoops presentation - Google Slides 1.png" alt="gamerScoops">
-                    </a>
-                </div>
+          </div>
+          <!-- End card 1 -->
+  
+          <!-- Card 2 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img src="./images/GamerScoops.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GamerScoops</h5>
+                <p class="card-text">An application to get the most update to date news on gaming releases and gaming news!
+                </p>
+                <a href="#" class="mt-auto btn btn-primary">Learn More!</a>
+              </div>
             </div>
+          </div>
+          <!-- End card 2 -->
+  
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img src="./images/Utah state tax.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">tax.utah.gov</h5>
+                <p class="card-text">A redesign of a government website to be more userfriendly.</p>
+                <a href="#" class="mt-auto btn btn-primary">Learn More!</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 3 -->
+  
         </div>
+      </div>
     </div>
-    <div class="spacing-90"></div>
-</div>
-</body>
+    <!-- End cards -->
+    <!-- Start of container -->
+    <div class="container sectionArea">
+      <h2 class="sectionHeading">Why I want to work in UX/UI</h2>
+      <div class="row">
+        <div class="mt-50 col-md-6">
+          <img class="img-fluid" src="./images/closeup picture.JPG">
+        </div>
+        <div class="mt-50 col-md-6">
+          <h3>Im a Gamer!</h3>
+          <p>
+            One of my main hobbies is playing video games! 
+            I look at UI's all the time and sometimes customize them with the tools they give me. 
+            Being able to create my own and learn from senior designers would be my dream! 
+            Along with learning to create awesome websites and applications for users to use everyday!
+          </p>
+          <a href="#" class="mt-auto btn btn-primary">About me!
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end of container -->
+    <!-- Footer -->
+    <footer class="emailContain">
+      <form>
+        <h3>Anything else you'd like to know?</h3>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Ask me a question!</label>
+          <input type="question" class="form-control" placeholder="Question">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
