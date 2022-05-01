@@ -16,30 +16,30 @@
 
     <!-- Navigation bar -->
     <nav class="customNav navbar navbar-expand-lg navbar-dark bg-light">
-      <a class="navbar-brand" href="#"><img src="./images/Sharkfin-removebg-preview.png">Chase Rossi</a>
+      <a class="navbar-brand"><img src="./images/Sharkfin-removebg-preview.png">Chase Rossi</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="btn btn-primary nav-link" href="#" role="button">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About me!</a>
+            <a class="btn btn-primary nav-link" href="#about" role="button">About me!</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link btn btn-primary dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               More information
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Contact me!</a>
-              <a class="dropdown-item" href="#">Social Media</a>
+              <a class="dropdown-item btn btn-primary" href="#" role="button">Contact me!</a>
+              <a class="dropdown-item btn btn-primary" href="#" role="button">Social Media</a>
             </div>
           </li>
           <li>
-            <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Resume</a>
+            <a class="btn btn-primary nav-link" href="#" role="button">Resume</a>
           </li>
         </ul>
       </div>
@@ -107,7 +107,7 @@
     </div>
     <!-- End cards -->
     <!-- Start of container -->
-    <div class="container sectionArea">
+    <div id="about" class="container sectionArea">
       <h2 class="sectionHeading">Why I want to work in UX/UI</h2>
       <div class="row">
         <div class="mt-50 col-md-6">
@@ -151,6 +151,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
+      <script src="path/to/smooth-scroll.polyfills.min.js"></script>
+      <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
   </body>
   <script src="./js/index.js"></script>
 </html>
