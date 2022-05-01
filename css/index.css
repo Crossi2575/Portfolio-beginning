@@ -30,24 +30,31 @@ p{
 .customNav{
   position: fixed;
   width: 100%;
-  background: #EFF8FB;
-  background-color: solid !important;
+  background: black;
+  background-color: transparent !important;
   background-size: cover;
   z-index: 10;
+  color: black;
 }
 .navbar-nav{
   margin-left: auto;
   margin-right: 0 !important;
+  color: black;
 }
 .navbar-brand img{
   padding-right: 15px;
   width: 65px;
+  color: black;
 }
 .nav-item{
   margin: 0px 15px;
+  color: black;
+}
+.nav-link{
+  color: black;
 }
 .jumbotron{
-  background-image: url("../images/heroimage.png");
+  background-image: url("../images/water\ gif.gif");
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
@@ -62,13 +69,11 @@ p{
   width: 70%;
   min-width: 500px;
   max-width: 700px;
-  color: black;
+  color:white;
   text-align: center;
 }
 .content{
   padding: 50px;
-  background:#ABD5DE;
-
 }
 .sectionHeading{
   text-align: center;
@@ -108,7 +113,7 @@ form{
   width: 500px;
   margin: 35px auto;
   padding: 45px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #000000;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1),0 0 40px rgba(0,0,0,0.1) inset;
   background-color: white;
 }
